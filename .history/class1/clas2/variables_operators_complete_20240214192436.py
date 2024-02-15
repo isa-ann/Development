@@ -56,21 +56,7 @@
 # print(num_one)
 # print(type(num_one))
 
-# # String
-# fav_color = 'blue'
-# print(fav_color)
-# print(type(fav_color))
-
-# #Bool
-# technical_errors = True
-# print(technical_errors)
-# print(type(technical_errors))
-
-#Float
-
-
-#String
-
-#list
-
-#Dictionary
+# String
+fav_color = 'blue'
+print(fav_color)
+print(type(fav_color))

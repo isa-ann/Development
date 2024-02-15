@@ -11,7 +11,7 @@
 # print(+2)
 
 # Multiplication
-# print(3*3)
+print(3*3)
 
 # #Division
 # print(10/2)
@@ -41,36 +41,6 @@
 # print(6 % 2)
 
 #Program to find the perimeter of a rectangle
-#perimeter = 2 * (length + width)
+#perimeter = 2* (length + width)
 
-# length = 10
-# width = 7
-# perimeter = 2 * (length + width)
-# print('The perimeter of this rectangle is', perimeter)
-
-
-#Data Types
-
-# # Integer
-# num_one = 5
-# print(num_one)
-# print(type(num_one))
-
-# # String
-# fav_color = 'blue'
-# print(fav_color)
-# print(type(fav_color))
-
-# #Bool
-# technical_errors = True
-# print(technical_errors)
-# print(type(technical_errors))
-
-#Float
-
-
-#String
-
-#list
-
-#Dictionary
+lenght

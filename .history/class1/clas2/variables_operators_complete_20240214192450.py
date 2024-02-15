@@ -61,16 +61,3 @@
 # print(fav_color)
 # print(type(fav_color))
 
-# #Bool
-# technical_errors = True
-# print(technical_errors)
-# print(type(technical_errors))
-
-#Float
-
-
-#String
-
-#list
-
-#Dictionary

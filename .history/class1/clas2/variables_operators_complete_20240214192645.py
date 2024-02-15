@@ -69,8 +69,3 @@
 #Float
 
 
-#String
-
-#list
-
-#Dictionary

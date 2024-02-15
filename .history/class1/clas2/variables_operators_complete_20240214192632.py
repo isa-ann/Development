@@ -66,11 +66,3 @@
 # print(technical_errors)
 # print(type(technical_errors))
 
-#Float
-
-
-#String
-
-#list
-
-#Dictionary
