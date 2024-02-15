@@ -71,53 +71,19 @@
 # print(num_two)
 # print(type(num_two))
 
-# #String
-# first_name  = 'Annie'
-# last_name  = 'hola'
-# fullname =first_name + ' ' + last_name
-# print(fullname)
-# print(first_name, last_name)
+#String
+first_name  = 'Annie'
+last_name  = 'hola'
+fullname =first_name + ' ' + last_name
+print(fullname)
+print(first_name, last_name)
 
 
-# #list
-# student_grades = [100, 95, 70, 85, 40]
-# print(student_grades)
-# print(type(student_grades))
+#list
+student_grades = [100, 95, 70, 85, 40]
+print(student_grades)
+print(type(student_grades))
 
-# #For loop
-# for s in student_grades:
-#     print(s)
+for s in sty
 
-# #Dictionary
-# demographic_info = {"First Name": "Annie",
-#                     "Last Name": "Hola",
-#                     "State":  "New York"
-#                     }
-# print(demographic_info)
-# print(type(demographic_info))
-
-#cast a string to an integer
-my_string = '5' 
-# print(type(my_string))
-
-# # new_number = int(my_string)
-
-# second_num = 3
-# my_sum = my_string + second_num
-# print(my_string)
-
-# # cast integer to string
-# second_num = 10 
-# print(type(second_num))
-
-# #colors
-# fav_colors = ['blue', 'green', 'red', 'brown'] #list item has 4 elements
-# num_colors = len(fav_colors)
-# print(num_colors)
-
-color = 'orange'
-my_count = len(color)
-print(my_count)
-
-for c in color:
-    print(c)
+#Dictionary

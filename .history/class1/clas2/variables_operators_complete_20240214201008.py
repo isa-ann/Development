@@ -114,10 +114,3 @@ my_string = '5'
 # fav_colors = ['blue', 'green', 'red', 'brown'] #list item has 4 elements
 # num_colors = len(fav_colors)
 # print(num_colors)
-
-color = 'orange'
-my_count = len(color)
-print(my_count)
-
-for c in color:
-    print(c)

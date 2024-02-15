@@ -119,5 +119,3 @@ color = 'orange'
 my_count = len(color)
 print(my_count)
 
-for c in color:
-    print(c)

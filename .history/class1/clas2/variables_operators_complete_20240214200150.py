@@ -106,18 +106,6 @@ my_string = '5'
 # my_sum = my_string + second_num
 # print(my_string)
 
-# # cast integer to string
-# second_num = 10 
-# print(type(second_num))
-
-# #colors
-# fav_colors = ['blue', 'green', 'red', 'brown'] #list item has 4 elements
-# num_colors = len(fav_colors)
-# print(num_colors)
-
-color = 'orange'
-my_count = len(color)
-print(my_count)
-
-for c in color:
-    print(c)
+# cast integer to string
+second_num = 10 
+print(type)

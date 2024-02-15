@@ -115,9 +115,6 @@ my_string = '5'
 # num_colors = len(fav_colors)
 # print(num_colors)
 
-color = 'orange'
+colors = 'orange'
 my_count = len(color)
 print(my_count)
-
-for c in color:
-    print(c)
