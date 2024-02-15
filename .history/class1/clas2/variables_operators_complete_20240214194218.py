@@ -72,11 +72,6 @@
 # print(type(num_two))
 
 #String
-first_name  = 'Annie'
-last_name  = 'hola'
-fullname =first_name + ' ' + last_name
-print(fullname)
-print(first_name, last_name)
 
 
 #list
