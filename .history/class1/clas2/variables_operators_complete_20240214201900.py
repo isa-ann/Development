@@ -115,19 +115,17 @@ my_string = '5'
 # num_colors = len(fav_colors)
 # print(num_colors)
 
-# color = 'orange'
-# my_count = len(color)
-# print(my_count)
+color = 'orange'
+my_count = len(color)
+print(my_count)
 
-# for c in color:
-#     print(c)
+for c in color:
+    print(c)
 
 
-# # Fahrenheit to Celsius 
-# fahrenheit = 89
-# celsius_result = (fahrenheit - 32) * 5 / 9
-# print(f"The temperature in Celsius is: {celsius_result:.2f}°C")
+# Fahrenheit to Celsius 
+    fahrenheit = 89  
 
-#Eval 
-cold_weather = 'True'
-print(eval(cold_weather))
+    fahrenheit_value = 89
+celsius_result = (fahrenheit_value - 32) * 5 / 9
+print(f"The temperature in Celsius is: {celsius_result:.2f}°C")

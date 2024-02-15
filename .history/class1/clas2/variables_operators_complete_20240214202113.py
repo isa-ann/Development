@@ -123,11 +123,7 @@ my_string = '5'
 #     print(c)
 
 
-# # Fahrenheit to Celsius 
-# fahrenheit = 89
-# celsius_result = (fahrenheit - 32) * 5 / 9
-# print(f"The temperature in Celsius is: {celsius_result:.2f}°C")
-
-#Eval 
-cold_weather = 'True'
-print(eval(cold_weather))
+# Fahrenheit to Celsius 
+fahrenheit = 89  
+celsius_result = (fahrenheit_value - 32) * 5 / 9
+print(f"The temperature in Celsius is: {celsius_result:.2f}°C")
