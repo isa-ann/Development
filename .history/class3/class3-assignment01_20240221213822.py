@@ -23,7 +23,7 @@ base = 6
 perimeter = side1 + side2 + base
 
 # Print the perimeter of the triangle
-print("The perimeter of your triangle is ...", perimeter)
+print("The perimeter of my triangle is:", perimeter)
 
 # Check if side 1 is greater than side 2
 print("Is side 1 greater than side 2?", side1 > side2)
