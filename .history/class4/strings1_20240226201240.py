@@ -264,8 +264,7 @@ day = 'MONDAY'
 # ex_21 = '  sportsfan876  ' # sanitize this string
 
 user_input = input("what is your name? ")
-print(int(user_input)) # casting the string to an integer
-print(type(user_input))
+print(int(user_input))
 
 '''
 Write some code that will take a string from the user and print if it is a number or not.

@@ -264,7 +264,7 @@ day = 'MONDAY'
 # ex_21 = '  sportsfan876  ' # sanitize this string
 
 user_input = input("what is your name? ")
-print(int(user_input)) # casting the string to an integer
+print(int(user_input)) 
 print(type(user_input))
 
 '''
