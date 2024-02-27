@@ -180,49 +180,39 @@ isnumeric will check for unicode characters
 # print(test_9.islower())
 
 
-# ex_12 = 'Username' # check if all lowercase
+ex_12 = 'Username' # check if all lowercase
 
 # isupper() lets check for ALL uppercase
 
-# test_11 = 'Marshall'
-# test_12 = 'HALLOWEEN'
-# print(test_11.isupper())
-# print(test_12.isupper())
+test_11 = 'Marshall'
+test_12 = 'HALLOWEEN'
+print(test_11.isupper())
+
 
 
 ex_13 = 'TEMPLE' # check if uppercase
 
 # isspace() Lets check for whitespace (someone enters nothing for an input)
 
-# test_13 = '    '
-# test_14 = 'j      b    c'
-# print(test_13.isspace())
-# print(test_14.isspace())
+test_13 = '    '
+test_14 = 'j      b    c'
 
 
-# ex_14 = '   ' # check if whitespace
+ex_14 = '   ' # check if whitespace
 
 
 # istitle() Let's check for title case
 
-# test_15 = 'Eye of the tiger'
-# test_16 = 'Eye Of The Tiger'
-# print(test_15.istitle())
-# print(test_16.istitle())
+test_15 = 'Eye of the tiger'
+test_16 = 'Eye Of The Tiger'
 
 
 ex_15 = 'Tempus Fugit' # check for title casing
 
 # join() Joins the elements of an iterable to the end of the string
 
-# my_colors = ['blue', 'green', 'red', 'orange', 'blue']
-# new_string = '*'.join(my_colors)
-# print(new_string)
-
-
 my_colors = ['blue', 'green', 'red', 'orange', 'blue']
-new_string = ' '.join(my_colors)
-print(new_string)
+
 
 ex_16 = ['summer', 'spring', 'fall', 'winter'] # create a string from this list and separate it with an asterisk
 
@@ -230,41 +220,38 @@ ex_16 = ['summer', 'spring', 'fall', 'winter'] # create a string from this list 
 day = 'MONDAY'
 
 
-# # partition() Returns a tuple where the string is partitioned into three parts
-# test_17 = 'I am excited about spring time.'
+# partition() Returns a tuple where the string is partitioned into three parts
+test_17 = 'I am excited about spring time.'
 
-# ex_17 = 'We will be going to the park next week.' # partition this string on the word 'going'
+ex_17 = 'We will be going to the park next week.' # partition this string on the word 'going'
 
-# # replace() Returns a string where a specified value is replaced with a specified value
-# food = 'My favorite food is pizza.'
-
-
-# ex_18 = 'Today is Tuesday. Tuesday we play golf.' # replace instances of Tuesday with Thursday
+# replace() Returns a string where a specified value is replaced with a specified value
+food = 'My favorite food is pizza.'
 
 
-# # split() Splits the string at the specified separator, and returns a list
-# test_18 = 'I will be broken up on every space'
+ex_18 = 'Today is Tuesday. Tuesday we play golf.' # replace instances of Tuesday with Thursday
 
 
-# ex_19 = 'Split*me*up*on*the*asterisk' # split this spring up on every asterisk
-
-# # splitlines() Splits the string at line breaks and returns a list
-# lyrics = "Every time that I look in the mirror\nAll these lines on my face getting clearer\nThe past is gone\nOh, it went by like dusk to dawn\nIsn't that the way?"
+# split() Splits the string at the specified separator, and returns a list
+test_18 = 'I will be broken up on every space'
 
 
-# # startswith() Returns true if the string starts with the specified value
+ex_19 = 'Split*me*up*on*the*asterisk' # split this spring up on every asterisk
 
-# name = 'giraffe'
+# splitlines() Splits the string at line breaks and returns a list
+lyrics = "Every time that I look in the mirror\nAll these lines on my face getting clearer\nThe past is gone\nOh, it went by like dusk to dawn\nIsn't that the way?"
 
-# ex_20 = 'summer' # Check if this string starts with an 's'
 
-# # strip() Returns a trimmed version of the string
-# username = '   jessica123    '
+# startswith() Returns true if the string starts with the specified value
 
-# ex_21 = '  sportsfan876  ' # sanitize this string
+name = 'giraffe'
 
-user_input = input("what is your name? ")
-print(user_input)
+ex_20 = 'summer' # Check if this string starts with an 's'
+
+# strip() Returns a trimmed version of the string
+username = '   jessica123    '
+
+ex_21 = '  sportsfan876  ' # sanitize this string
 
 '''
 Write some code that will take a string from the user and print if it is a number or not.

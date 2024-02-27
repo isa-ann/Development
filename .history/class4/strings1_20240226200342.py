@@ -221,7 +221,7 @@ ex_15 = 'Tempus Fugit' # check for title casing
 
 
 my_colors = ['blue', 'green', 'red', 'orange', 'blue']
-new_string = ' '.join(my_colors)
+new_string = ''.join(my_colors)
 print(new_string)
 
 ex_16 = ['summer', 'spring', 'fall', 'winter'] # create a string from this list and separate it with an asterisk
@@ -230,41 +230,38 @@ ex_16 = ['summer', 'spring', 'fall', 'winter'] # create a string from this list 
 day = 'MONDAY'
 
 
-# # partition() Returns a tuple where the string is partitioned into three parts
-# test_17 = 'I am excited about spring time.'
+# partition() Returns a tuple where the string is partitioned into three parts
+test_17 = 'I am excited about spring time.'
 
-# ex_17 = 'We will be going to the park next week.' # partition this string on the word 'going'
+ex_17 = 'We will be going to the park next week.' # partition this string on the word 'going'
 
-# # replace() Returns a string where a specified value is replaced with a specified value
-# food = 'My favorite food is pizza.'
-
-
-# ex_18 = 'Today is Tuesday. Tuesday we play golf.' # replace instances of Tuesday with Thursday
+# replace() Returns a string where a specified value is replaced with a specified value
+food = 'My favorite food is pizza.'
 
 
-# # split() Splits the string at the specified separator, and returns a list
-# test_18 = 'I will be broken up on every space'
+ex_18 = 'Today is Tuesday. Tuesday we play golf.' # replace instances of Tuesday with Thursday
 
 
-# ex_19 = 'Split*me*up*on*the*asterisk' # split this spring up on every asterisk
-
-# # splitlines() Splits the string at line breaks and returns a list
-# lyrics = "Every time that I look in the mirror\nAll these lines on my face getting clearer\nThe past is gone\nOh, it went by like dusk to dawn\nIsn't that the way?"
+# split() Splits the string at the specified separator, and returns a list
+test_18 = 'I will be broken up on every space'
 
 
-# # startswith() Returns true if the string starts with the specified value
+ex_19 = 'Split*me*up*on*the*asterisk' # split this spring up on every asterisk
 
-# name = 'giraffe'
+# splitlines() Splits the string at line breaks and returns a list
+lyrics = "Every time that I look in the mirror\nAll these lines on my face getting clearer\nThe past is gone\nOh, it went by like dusk to dawn\nIsn't that the way?"
 
-# ex_20 = 'summer' # Check if this string starts with an 's'
 
-# # strip() Returns a trimmed version of the string
-# username = '   jessica123    '
+# startswith() Returns true if the string starts with the specified value
 
-# ex_21 = '  sportsfan876  ' # sanitize this string
+name = 'giraffe'
 
-user_input = input("what is your name? ")
-print(user_input)
+ex_20 = 'summer' # Check if this string starts with an 's'
+
+# strip() Returns a trimmed version of the string
+username = '   jessica123    '
+
+ex_21 = '  sportsfan876  ' # sanitize this string
 
 '''
 Write some code that will take a string from the user and print if it is a number or not.

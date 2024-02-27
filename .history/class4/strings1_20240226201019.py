@@ -265,7 +265,7 @@ day = 'MONDAY'
 
 user_input = input("what is your name? ")
 print(user_input)
-
+Anni
 '''
 Write some code that will take a string from the user and print if it is a number or not.
 
