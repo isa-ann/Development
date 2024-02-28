@@ -58,7 +58,7 @@ letter_x = first_name[3]
 # Access the letter e
 letter_e = first_name[2]
 # Access the letter d
-letter_d = first_name[6]
+letter_d = first_name[-2]
 print("Letter x:", letter_x)  # Output: x
 print("Letter e:", letter_e)  # Output: e
 print("Letter d:", letter_d)  # Output: d
