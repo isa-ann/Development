@@ -53,28 +53,28 @@ str_2 = str_1.lower()
 
 # Using bracket notation access the letter x, the letter e, and the letter d 
 first_name = 'Alexandra'
-# Access the letter x
-letter_x = first_name[3]
-# Access the letter e
-letter_e = first_name[2]
-# Access the letter d
-letter_d = first_name[6]
-print("Letter x:", letter_x)  # Output: x
-print("Letter e:", letter_e)  # Output: e
-print("Letter d:", letter_d)  # Output: d
+# # Access the letter x
+# letter_x = first_name[3]
+# # Access the letter e
+# letter_e = first_name[2]
+# # Access the letter d
+# letter_d = first_name[6]
+# print("Letter x:", letter_x)  # Output: x
+# print("Letter e:", letter_e)  # Output: e
+# print("Letter d:", letter_d)  # Output: d
 
 
 '''Reverse indexing'''
 fav_animal = 'Ostrich'
 
-# print(fav_animal[-1])
-# print(fav_animal[-2])
-# print(fav_animal[-3])
-# print(fav_animal[-4])
-# print(fav_animal[-5])
-# print(fav_animal[-6])
-# print(fav_animal[-7])
-# print(fav_animal[-8]) # Lets note the error
+print(fav_animal[-1])
+print(fav_animal[-2])
+print(fav_animal[-3])
+print(fav_animal[-4])
+print(fav_animal[-5])
+print(fav_animal[-6])
+print(fav_animal[-7])
+print(fav_animal[-8]) # Lets note the error
 
 # Using bracket notation and reverse indexing, access the letter g, the letter i, the letter p
 fav_season = 'spring'
@@ -142,13 +142,21 @@ Test your code on a few inputs to make sure it works!
 '''
 
 # Get input 
+email = input("Hello, please enter your email address: ")
+print(email)
 
+# Sanitize Data
+email = email.strip()
+print(email)
 # Clean input
 
 # Test 1: It has a "." at the third-to-last index
-
-# Test 2: It has exactly one "@" symbol, at the fifth-to-last index or earlier
-
+email = 'jrjuste@gmail.com'
+test_1 = email[-4] == '.'
+print('Test 1: Does the email have a "." at the thrird-to-last-index?, test_1)
+# Test 2: It has exactly one "@" symbol, at the fifth-to-last index or earlier, email cannot be @.com
+test_2 = email[-10]
+print('Test 2: Does the email have exactly one "@" symbol, at the fifth-to-last index or earlier?, test_2)
 # Test 3: There is at least one character before the "@" symbol
 
 # Test 4: It doesn’t have any spaces (doesn’t contain " ")
