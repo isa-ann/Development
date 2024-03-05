@@ -77,20 +77,20 @@ F - Anything under 65
 
 
 # Get grade from user
-score = int(input("Please enter your grade: "))
+# score = int(input("Please enter your grade: "))
 
 #Create our conditional
 # option 1
-if score >= 90 and score < 100:
-    print("Grade A")
-elif  score >= 80 and score < 90:
-    print("Grade B")   
-elif  score >= 70 and score < 80:
-    print("Grade C")     
-elif  score >= 65 and score < 70:
-    print("Grade D")      
-else:
-    print("Grade F")      
+# if score >= 90 and score < 100:
+#     print("Grade A")
+# elif  score >= 80 and score < 90:
+#     print("Grade B")   
+# elif  score >= 70 and score < 80:
+#     print("Grade C")     
+# elif  score >= 65 and score < 70:
+#     print("Grade D")      
+# else:
+#     print("Grade F")      
 
 
 #option 2
@@ -120,16 +120,16 @@ else:
 
 # option 4 
    
-if score >= 90: 
-   print("Grade A")
-if score >= 80:
-    print("Grade B")   
-if  score >= 70:
-    print("Grade C")     
-if  score >= 65:
-    print("Grade D")      
-else:
-    print("Grade F")                    
+# if score >= 90: 
+#    print("Grade A")
+# if score >= 80:
+#     print("Grade B")   
+# if  score >= 70:
+#     print("Grade C")     
+# if  score >= 65:
+#     print("Grade D")      
+# else:
+#     print("Grade F")                    
 
 
 
@@ -147,6 +147,28 @@ User input: 12
 This is even
 
 '''
+
+# with an elif statement
+# number = int(input("Enter a number: "))
+
+# if number % 2 == 0:
+#     print("This is even")
+# elif number % 2 != 0:
+#     print("This is odd")
+
+# # with an else statement
+# number = int(input("Enter a number: "))
+
+# if number % 2 == 0:
+#     print("This is even")
+# else:
+#     print("This is odd")
+   
+
+
+
+
+
 
 ''' Exercise solution with an elif and else'''
 
@@ -170,10 +192,68 @@ This is even
 User input: 9.2
 Unknown
 
+'''
+# def check_odd_even(num):
+#     if isinstance(num, int):
+#         if num % 2 == 0:
+#             print("This is even")
+#         else:
+#             print("This is odd")
+#     else:
+#         print("Unknown")
+
+# user_input = input("Enter a number: ")
+
+# try:
+#     num = int(user_input)
+#     check_odd_even(num)
+# except ValueError:
+#     try:
+#         num = float(user_input)
+#         check_odd_even(num)
+#     except ValueError:
+#         print("Unknown")
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# num = input("Enter a number: ")
+
+# try:
+#     num = float(num)
+#     if num % 2 == 0:
+#         print("This is even")
+#     elif num % 2 == 1:
+#         print("This is odd")
+#     else:
+#         print("Unknown")
+# except ValueError:
+#     print("Unknown")
+
+
+# num = input("Enter a number: ")
+
+# try:
+#     num = float(num)
+#     if num.is_integer():
+#         if num % 2 == 0:
+#             print("This is even")
+#         else:
+#             print("This is odd")
+#     else:
+#         print("Unknown")
+# except ValueError:
+#     print("Unknown")
+
 
 '''
 
-''' Exercise solution(s)'''
+'' Exercise  solution(s) '''
+# Check for a decimal
+# user_input = input("Please enter your number: ")
+
+# if not user_input.isdecimal():
+#     print(f'{iser_input} is not odd or even')
+
 
 
 
@@ -198,6 +278,18 @@ User input: 7!ab5
 This is something else
 
 '''
+def check_input_type(input_string):
+    if input_string.isdigit():
+        print(f'{input_string} is a number')
+        return "This is a number"
+    elif input_string.isalpha():
+        print(f'{input_string} is a number')
+        return "This is a word"
+    else:
+        return "This is something else"
+
+user_input = input("Enter a string: ")
+print(check_input_type(user_input))
 
 
 
