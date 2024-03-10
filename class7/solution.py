@@ -45,14 +45,25 @@ Now, print using string concatenation. Remember to cast hours to a string and ma
 # ********************
 # '''
 
-user_input = "programming is fun"
+# user_input = "programming is fun"
 
-border = (len(user_input) * "*" )
+# border = (len(user_input) * "*" )
 
-# using concatenation to recreate the box
-print(border)
-print("*" + user_input + "*")
-print(border)
+# # using concatenation to recreate the box
+# print(border)
+# print("*" + user_input + "*")
+# print(border)
+
+
+# user_input = "I love programming"
+
+# border = (len(user_input) * "*" + "**" ) # our border
+
+# # using concatenation to recreate the box
+# print(border)
+# print("*" + user_input + "*")
+# print(border)
+
 
 
 
