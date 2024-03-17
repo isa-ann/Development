@@ -1,0 +1,15 @@
+tf
+resource "aws_default_vpc" "default_vpc" {
+  tags                                 = merge(var.tags, {})
+  force_destroy                        = false
+  enable_network_address_usage_metrics = true
+  enable_dns_support                   = true
+  enable_dns_hostnames                 = true
+  cidr_block                           = var.variable
+  assign_generated_ipv6_cidr_block     = true
+
+  lifecycle {
+    create_before_destroy = true
+  }
+}
+
